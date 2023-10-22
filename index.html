@@ -1,1 +1,113 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My E-commerce Web</title>
+	<link rel="stylesheet" href="home\style.css">
+    
+</head>
+<body>
+    <div class="container">
+	
+      <header>
+        <div>
+            <!-- logo or title goes here -->
+            <h1>bar<strong>Ber</strong><i>shop</i></i></h1>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+              <br><a href="#">Home</a>
+               <a href="#">Login</a>
+              <a href="#">Sign Up</a>
+              <a href="#">Service</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+	
+    </header>
+		<br>
+		<br><br>
+        <center><h1 style="font-size:30px; color:antiquewhite;">RICO Barber And Salon</h1></center>
+		
+     
+<div class="slideshow-container">
+    <!-- Slide 1 -->
+    <div class="mySlides">
+        <img src="home/barber/7a.jpeg" >
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="mySlides">
+        <img src="home/barber/8a.jpg" >
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="mySlides">
+        <img src="home/barber/9a.jpeg" >
+    </div>
+
+    <!-- Navigation dots -->
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+<center><button class="bookN">Book Now!!</button></center>
+  <hr style="margin-top:-15px;">
+  <marquee><p style=" font-size:20px; color:white; z-index:1; margin-top:2%;">BOOk!! Your Appointment!! Now!</p></marquee>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+</script>
+<div class="imglist">
+	<img src="home/barber/2a.jpg" alt="Image 1" >
+	<img src="home/barber/3a.jpg" alt="Image 2" >
+	<img src="home/barber/4a.jpg" alt="Image 3" >
+	<img src="home/barber/5a.jpg" alt="Image 4" >
+</div>
+  <div class="imgbt">
+    <button>Book Now</button>
+    <button>Book Now</button>
+    <button>Book Now</button>
+    <button>Book Now</button>
+  </div>
+  <br>
+<div class="imglist1">
+	<img src="home/barber/7a.jpeg" alt="Image 1" >
+	<img src="home/barber/7a.jpeg" alt="Image 2" >
+	<img src="home/barber/7a.jpeg" alt="Image 3" >
+	<img src="home/barber/7a.jpeg" alt="Image 4" >
+</div>
+  <div class="imgbt1">
+    <button>Book Now</button>
+    <button>Book Now</button>
+    <button>Book Now</button>
+    <button>Book Now</button>
+  </div>
+	      <footer>
+            &copy; 2023 Your Website
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+
+        
+        .container {
+            width:300px;
+            margin: 0 auto; /* Center the container horizontally */
+            border-radius: 5px;
+			padding: 20px;
+			border:2px solid black;
+			background-image:url('1back_2.jpeg');
+			background-size:400px;
+            align-items: center;
+        }
+	
+       
+        /* Define a fixed-width footer */
+        footer {
+            clear: both;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 20px 40px;
+		           	margin-bottom:-6%;
+           			margin-left:-5%;
+	           		width:250px;
+          
+        }
+    
+         /* Basic header styles */
+        header {
+            background-color: darkblue;
+            color: white;
+			top:12px;
+            
+          
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+			position: fixed;
+			z-index:1;
+			border-radius: 5px;
+          border:1px solid white;
+			
+			           width:310px;
+            text-align: center;
+            clear: both;
+            
+          
+          padding-left: 10px;
+          margin-left: -18px;
+          padding-right: 15px;
+            
+			
+        }
+
+        /* Style for the dropdown container */
+        .dropdown {
+            position: relative;
+          
+        }
+
+
+        /* Style for the dropdown button */
+        .dropbtn {
+            background-color: #3498db;
+            color: white;
+            border: 1px solid white;
+            border-radius:4px;
+            transition: 400ms;
+            cursor: pointer;
+            padding: 10px 20px;
+            
+        }
+         .dropbtn:hover {
+           color:#3498db;
+           padding: 12px 22px;
+           border: 1px solid #3498db;
+           background-color: #3498db;
+           transition: 500ms;
+         }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: fixed;
+			margin-left:-80px;
+            background-color: darkblue;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+          border:1px solid white;
+          margin-top:-25px;
+          transition: 400ms;
+        }
+        
+
+        /* Style for the dropdown items */
+        .dropdown-content a {
+            color: white;
+          width:90px;
+          margin-left: 17px;
+            padding: 5px 10px;
+            text-decoration: none;
+            display: block;
+            border: 1px solid white;
+            border-radius: 3px;
+            transition: 400ms;
+            background-color: dodgerblue;
+           margin-bottom: 10px;
+          
+            
+			
+        }
+
+        /* Style for the dropdown items on hover */
+        .dropdown-content a:hover {
+            background-color: crimson;
+          padding: 7px 12px;
+          
+          
+        }
+
+        /* Show the dropdown content when the button is hovered over */
+        .dropdown:hover .dropdown-content {
+            display: block;
+          
+          
+        }
+
+/*For slide show */
+ /* Style for the slideshow container */
+        .slideshow-container {
+            max-width: 90%;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Style for the individual slides */
+        .mySlides {
+            display: none;
+			
+        }
+		 .mySlides,img {
+          
+			width:90%; 
+			height:250px;
+			margin-left:7%;
+			margin-top: -4%;
+			border-radius:5px;
+        }
+
+
+        /* Style for the navigation dots */
+        .dot {
+          position:relative;
+            height: 15px;
+            width: 15px;
+            margin: 0 5px;
+            top: -30px;;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: 600ms;
+          
+        }
+
+        /* Style for the active dot */
+        .active {
+            background-color: #717171;
+        }
+        .bookN{
+             position:relative;
+            font-size: 20px;
+            background-color:red;
+            color: white;
+            border-radius: 5px;
+          border: 1px solid white;
+            cursor: pointer;
+            transition: 400ms;
+            top:-20px;
+            padding: 7px 12px;
+            
+        }
+        .bookN:hover{
+            background-color: dodgerblue;
+            border-radius: 6px;
+            font-size: 23px;
+            
+
+
+        } 
+
+     		.imglist {
+        display: grid;
+        grid-template-columns: repeat(4, 23%);
+        gap: 10px;
+        margin-left:-12px;
+    }  
+    .imglist img {
+        max-width: 300px;      
+        height: auto;
+        border: 1px solid #ccc;
+    }
+    .imgbt{
+        display: grid;
+        grid-template-columns: repeat(4, 23.5%);
+        gap: 10px;
+        margin-left:-3px;
+        margin-top:3px;
+        
+    }  
+    .imgbt button{
+      font-size:1px;
+      padding: 1px 2px;
+      width:60px;
+      border-radius: 3px;
+      border:1px solid white;
+      background-color: red;
+      color:white;
+      transition:400ms;
+    }
+    .imgbt button:hover{
+      background-color: dodgerblue;
+      font-size:3px;
+      padding: 2px 3px;
+    }
+/*row 2 image imglist1*/
+.imglist1 {
+        display: grid;
+        grid-template-columns: repeat(4, 23%);
+        gap: 10px;
+        margin-left:-12px;
+    }  
+    .imglist1 img {
+        max-width: 300px;      
+        height: auto;
+        border: 1px solid #ccc;
+    }
+    .imgbt1{
+        display: grid;
+        grid-template-columns: repeat(4, 23.5%);
+        gap: 10px;
+        margin-left:-3px;
+        margin-top:3px;
+        
+    }  
+    .imgbt1 button{
+      font-size:1px;
+      padding: 1px 2px;
+      width:60px;
+      border-radius: 3px;
+      border:1px solid white;
+      background-color: red;
+      color:white;
+      transition:400ms;
+    }
+    .imgbt1 button:hover{
+      background-color: dodgerblue;
+      font-size:3px;
+      padding: 2px 3px;
+    }
